@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #27633A;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    text-decoration: none;
+    background-color: #27633A;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 0 20px 0 40px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    height: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.inicio {
+    background-color: #f5ddb8;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulo {
+    color: #27633A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 35px;
+}
+
+.titulo {
+    color: #1d492b;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    padding: 55px 0 0 0;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo__secao {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo2 {
+    color: #1d492b;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 150px 0 20px 2%;
+}
+
+.texto {
+    
+    color: #27633A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0 27% 2%;
+}
+
+.flor{
+    display: flex;
+    padding: 0 0 0 2%;
+    width: 150px;
+}
+
+.rodape {
+    background-color: #27633A;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.rodape__texto {
+    padding: 0 0 0 43%;
+}
+
+/* sobre */
+
+.texto__sobre{
+    color: #27633A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 10%;
+}
+
+/* contato */
+
+.email{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;
+    color: #27633A;
+    padding-left: 75px ;
+}
+
+.telefone{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;
+    color: #27633A;
+}
+
+.instagram{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;
+    color: #27633A;
+    padding-left: 10px;
+}
+
+
+.conteudo__flores {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fila1{
+    display: flex;
+    flex-direction: row;
+}
+
+.fila2{
+    display: flex;
+    flex-direction: row;
+}
+
+.planta{
+    width: 180px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.planta:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
